@@ -31,4 +31,4 @@ jobs:
       with:
         push: true
         target: nginx
-        tags: "ghcr.io/rabotaru/dochub:${{ steps.vars.outputs.tag }}"
+        tags: "ghcr.io/visorbnv/dochub:${{ steps.vars.outputs.tag }}"
